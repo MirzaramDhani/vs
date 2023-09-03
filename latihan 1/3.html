@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absensi</title>
+</head>
+<body>
+    <form action="1.html">
+        <table align="center" border="1" cellspacing="0" cellpadding="10">
+            <thead>
+                <tr>
+                    <th colspan="3">ABSENSI</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th align="right"><label for="nama"><b>Nama:</b></label></th>
+                    <td><input type="text" id="nama"></td>
+                </tr>
+                <tr>
+                    <th align="right"><label for="sebagai"><b>Sebagai:</b></label></th>
+                    <td>
+                        <select name="sebagai" id="sebagai">
+                            <option value="Muadzin">Muadzin</option>
+                            <option value="Imam">Imam</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th align="right"><label for="waktu"><b>Waktu:</b></label></th>
+                    <td><input type="datetime-local" id="waktu"></td>
+                </tr>               
+                <tr>
+                    <th align="center" colspan="3"><label for="keterangan">Keterangan:</label></th>
+                </tr>
+                <tr>
+                    <td align="center" colspan="3"><textarea name="keterangan" id="keterangan" cols="30" rows="7"></textarea></td>
+                </tr> 
+                <tr>
+                    <th align="center" colspan="3"><button type="submit" title="kirim">kirim</button></th>
+                </tr>
+            </tbody>
+        </table>
+   </form>
+</body>
+</html>

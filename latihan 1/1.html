@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Kehadiran Musholla An-Nur</title>
+</head>
+<body>
+    <h1 align="center">Selamat Datang di Musholla An-Nur</h1>
+    <center>
+        <h5>*isi form dibawah sebagai kehadiran</h5>
+    </center>
+    <form>
+        <table align="center" border="1" cellspacing="0" cellpadding="10">
+            <thead></thead>
+            <tbody>           
+                <tr>
+                  <th align="right"><label for="name"><b>Nama :</b></label></th>                    
+                    <td colspan="2"><input type="text" id="name"></td>
+                </tr>
+                <tr>
+                    <th align="right"><label for="jenis kelamin"><b>Jenis kelamin:</b></label></th>
+                    <td colspan="2">
+                        <input type="radio" id="laki-laki" name="jenis kelamin"><label for="laki-laki">laki-laki</label>
+                        <input type="radio" id="perempuan" name="jenis kelamin"><label for="perempuan">perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th align="right"><label for="keperluan"><b>Keperluan:</b></label></th>
+                    <td colspan="2">
+                        <input type="checkbox" id="sholat"><label for="sholat">sholat</label>
+                        <input type="checkbox" id="mengaji"><label for="mengaji">mengaji</label>
+                        <input type="checkbox" id="piket"><label for="piket">piket</label>
+                        <input type="checkbox" id="lainnya"><label for="lainnya">lainnya</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th align="right"><label for="waktu">Waktu:</label></th>
+                    <td colspan="2">
+                        <select name="waktu" id="waktu">
+                            <option value="Subuh">Subuh</option>
+                            <option value="Dhuhur">Dhuhur</option>
+                            <option value="Asar">Asar</option>
+                            <option value="Magrib">Magrib</option>
+                            <option value="Isya">Isya</option>
+                        </select>
+                        <input type="datetime-local" name="waktu" id="waktu">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center">
+                        <button type="submit">kirim!</button>
+                    </td>
+                </tr>
+        </table>  
+    </form>
+        <div align="center">
+         <b>Ketuk <i><a href="2.html" target="_blank">disini</a></i>untuk melihat jadwal madzin dan imam sholat</b>
+        </div>
+</body>
+</html>
